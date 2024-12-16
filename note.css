@@ -1,0 +1,135 @@
+*{
+ 
+font-family: MN Ha Kao;
+}
+
+nav{
+    background-color: rgb(253, 253, 253);
+    width: 100%;
+    height: 150px;
+    display: flex;
+    font-size: 50px;
+ 
+    justify-content: center;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
+   
+}
+label{
+    text-align: center;
+}
+input .placeholder{
+   margin-left: 20px;
+}
+.logo{
+    margin-top: 40px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+   margin-top: 100px;
+
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem 0;
+   
+}
+.T1{
+    margin-top: 5px;
+    height: 50px;
+    border: #82d886;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    
+
+}
+.T2{
+    margin-top: 5px;
+    height: 30px;
+    border: #82d886;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+
+}
+form{
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+ 
+
+}
+.submit{
+    border-radius: 10px;
+    height: 40px;
+    width: 70px;
+    margin-left: 90px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: 20px;
+  
+}
+label{
+   font-size: 20px;
+   font-weight: bold;
+}
+.card{
+    background: #ded6e2;
+    padding: 1rem 1.5rem 1rem;
+    width: 17rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    margin: 1rem 2rem;
+ 
+}
+.card h3{
+    font-size: 1.9rem;
+    padding-bottom: 7px;
+    position: relative;
+    display: inline;
+}
+.card p{
+    font-size: 1.3rem;
+    letter-spacing: 0.5px;
+    padding: 1rem 0;
+}
+.card h3::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 2px;
+    bottom: 6px;
+    left: 0;
+    background: rgb(236, 37, 2);
+}
+.del{
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 230px;
+    background-color: #ffffff;
+    border: none;
+ 
+
+    font-size: 16px;
+}
+.notes{
+    width: 100%;
+    display: flex;
+   
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-right: 20px;
+}
+footer{
+    margin-top: 411px;
+    text-align:  center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+    font-size: 20px;
+}
